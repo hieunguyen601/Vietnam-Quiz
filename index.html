@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <title>Vietnam Quiz</title>
+</head>
+<body>
+  <form action="https://formspree.io/f/xnnndalr" method="post">
+    <p class="title">VIETNAM QUIZ 🇻🇳</p>
+
+    <div class="question-1">
+      <p class="question">1. What is the capital of Vietnam?</p>
+      <label><input type="radio" name="answer1" value="Ha Noi" /> Ha Noi</label>
+      <label><input type="radio" name="answer1" value="Ho Chi Minh" /> Ho Chi Minh</label>
+      <label><input type="radio" name="answer1" value="Da Nang" /> Da Nang</label>
+      <label><input type="radio" name="answer1" value="Hue" /> Hue</label>
+    </div>
+
+    <div class="question-2">
+      <p class="question">2. Which of the following is a traditional Vietnamese noodle soup?</p>
+      <label><input type="radio" name="answer2" value="Ramen" /> Ramen</label>
+      <label><input type="radio" name="answer2" value="Pho" /> Pho</label>
+      <label><input type="radio" name="answer2" value="Udon" /> Udon</label>
+      <label><input type="radio" name="answer2" value="Pad Thai" /> Pad Thai</label>
+    </div>
+
+    <div class="question-3">
+      <p class="question">3. Which famous Vietnamese leader declared independence from France in 1945?</p>
+      <label><input type="radio" name="answer3" value="Ngo Dinh Diem" /> Ngo Dinh Diem</label>
+      <label><input type="radio" name="answer3" value="Ho Chi Minh" /> Ho Chi Minh</label>
+      <label><input type="radio" name="answer3" value="Vo Nguyen Giap" /> Vo Nguyen Giap</label>
+      <label><input type="radio" name="answer3" value="Le Duan" /> Le Duan</label>
+    </div>
+
+    <div class="question-4">
+      <p class="question">4. What is the national flag of Vietnam?</p>
+      <label><input type="radio" name="answer4" value="Red with a yellow star in the center" /> Red with a yellow star in the center</label>
+      <label><input type="radio" name="answer4" value="Red with three yellow stripes" /> Red with three yellow stripes</label>
+      <label><input type="radio" name="answer4" value="Yellow with a red dragon" /> Yellow with a red dragon</label>
+      <label><input type="radio" name="answer4" value="Blue with a white lotus" /> Blue with a white lotus</label>
+    </div>
+
+    <p class="Score"></p>
+    <p class="corrected answers"></p>
+
+    <button class="submit-button" type="submit">Submit</button>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+</html>
